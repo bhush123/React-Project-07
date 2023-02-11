@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35cc03aa.css",
+    "main.js": "/static/js/main.d878d85d.js",
+    "static/media/stairs_of_approach(web).svg": "/static/media/stairs_of_approach(web).c3920ebc7aa5c1485172d80431d06376.svg",
+    "static/media/parigha.png": "/static/media/parigha.b3eeb0e307d6ec8d7bba.png",
+    "static/media/Pradip.png": "/static/media/Pradip.42922c8eed1d7198b283.png",
+    "static/media/nitinShinde.png": "/static/media/nitinShinde.6a443a60958382da7b64.png",
+    "static/media/sanchita.png": "/static/media/sanchita.9939df6ec9dddf0a0f07.png",
+    "static/media/tools_for_2020.svg": "/static/media/tools_for_2020.f26a8da9436a6db1cdec36dadcbb759f.svg",
+    "static/media/call_back.svg": "/static/media/call_back.82fc8733f856ab3bafc65fdf84f579a8.svg",
+    "static/media/homeImg (1).svg": "/static/media/homeImg (1).3d5d435df23965d7e9a0f33158c5286b.svg",
+    "static/media/supriya.png": "/static/media/supriya.478b0c0a12ca67dc4b3d.png",
+    "static/media/pratibha.png": "/static/media/pratibha.e52bbe5f86fc5478022a.png",
+    "static/media/ganesh.png": "/static/media/ganesh.7c8f2fbafc56e822651b.png",
+    "static/media/sonwane.png": "/static/media/sonwane.0806a46b26afa59848eb.png",
+    "static/media/BanerHomeImg-.webp": "/static/media/BanerHomeImg-.314938e9c9b295a7d2e8.webp",
+    "static/media/she-leads.webp": "/static/media/she-leads.97ddd8694d59b1278d25.webp",
+    "static/media/future-skills-homepage.webp": "/static/media/future-skills-homepage.7259089c7f4c1c37b682.webp",
+    "static/media/uincept.webp": "/static/media/uincept.834df02e462b878b837a.webp",
+    "static/media/aws-ed-start.webp": "/static/media/aws-ed-start.fcd5a8ad2dfaaafad2f6.webp",
+    "static/media/Google-launchpad.webp": "/static/media/Google-launchpad.64a1d14121c41ab7a352.webp",
+    "index.html": "/index.html",
+    "main.35cc03aa.css.map": "/static/css/main.35cc03aa.css.map",
+    "main.d878d85d.js.map": "/static/js/main.d878d85d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35cc03aa.css",
+    "static/js/main.d878d85d.js"
+  ]
+}

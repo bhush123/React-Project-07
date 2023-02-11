@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=Bree+Serif&family=Crete+Round&family=Itim&family=Jost&family=Kanit:wght@400;500&family=Lobster&family=Oleo+Script&family=Open+Sans&family=Poppins&family=Sono&family=Work+Sans&family=Yellowtail&display=swap');
+:root{
+    --mainColor :#0099CC;
+    --black:#000;
+    --white:#fff;
+    --pink:#F78078;
+    --yellow:#FDF0D7;
+    --gray:#707070;
+    --blue:#00afec;
+    --pink-1:#f1127c;
+    --inputColor:#F5F2FF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    overflow-x: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-control,textarea{
+    background-color: var(--inputColor);
 }
-
-.App-link {
-  color: #61dafb;
+.form-control:focus{
+    box-shadow: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+figure:hover figcaption{
+    background-color: var(--mainColor);
+    color: var(--white);
+    transition: .3s all ease-in-out;
+    padding-left: 15px;
+}
+.text2{
+  color: var(--gray);
+}
+figure,figcaption{
+    transition: .3s all ease-in-out;
+}
+textarea{
+    border: 1px solid #ced4da;
+}
+.Institute{
+    font-size:16px;
+}
+.fixedNav{
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+}
+.marginAllcomp{
+    margin-top: 81px;
+}
+.LearnCoding{
+    color: var(--blue);
+}
+.joinNow{
+    background-color:var(--pink-1)
+}
+.img-allTechnology{
+    width:80%;
+}
+.KnowMore{
+    background-color: var(--mainColor);
+}
+.coding,.coding-2{
+    font-size:20px;
+}
+.logo{
+    font-size: 24px;
+}
+.padding{
+    padding: 20px 0;
+}
+.navItem,.text{
+    color:var(--white);
+}
+.navItem:hover,.text:hover{
+    color:var(--black);
+}
+.NavBg,.footerBg{
+  background-color:var(--mainColor);
+}
+.iconSize:hover{
+   transform: scale(1.3);
+   transition: .2s all ease-in-out;
+}
+.iconSize{
+   transition: .2s all ease-in-out;
+   font-size: 18px;
+}
+.startYourYourney{
+    color: var(--pink);
+}
+.questions{
+    background-color:var(--yellow) ;
+}
+.questions-1{
+    padding: 35px 0 50px 0;
+}
+.lables{
+   color: var(--gray);
+}
+.placedStudentImg{
+    width: 320px;
+}
+@media (min-width:768px){
+    .logo,.coding-2{
+        font-size: 30px;
+    }
+    .wantTo{
+        font-size: 20px;
+    }
+    .coding{
+        font-size:40px;
+    }
+    .position-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+}
+/*<===========================================>>*/
+@media (min-width:992px){
+    .coding{
+        font-size:30px;
+    }
+}
+/*<===========================================>>*/
+@media (min-width:1200px){
+    .coding{
+        font-size:35px;
+    }  
+    .LearnCoding-1,.LearnCoding{
+        font-size:30px;
+    }
+}
+/*<===========================================>>*/
+@media (min-width:1400px){
+    .coding{
+        font-size:45px;
+    }
 }
